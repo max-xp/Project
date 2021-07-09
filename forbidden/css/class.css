@@ -1,0 +1,81 @@
+.header{
+    width: 7.5rem;
+    height: 1.76rem;
+    background: #C30D23;
+    position: relative;
+}
+.header .grabble{
+    position: absolute;
+    top: 0.96rem;
+    left: 0.6rem;
+    width: 6.3rem;
+    height: 0.64rem;
+    background-color: rgb(255, 255, 255,0.25);
+    border-radius: 0.12rem;
+    display: flex;
+}
+.header .grabble img{
+    width: 0.56rem;
+    height: 0.56rem;
+    margin: 0.04rem 0 0 0.22rem;
+}
+.header .grabble input{
+    width: 4rem;
+    height: 0.38rem;
+    font-size: 0.28rem;
+    font-family: Source Han Serif CN;
+    color: #FFFCFC;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+    border: none;
+    background-color: transparent;
+}
+.nav{
+    width: 1.64rem;
+    background: #F7F7F7;
+    height: 12.82rem;
+}
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    overflow-y: scroll;
+    height: 12.82rem;
+}
+.nav ul li{
+    height: 1.08rem ;
+    width: 1.64rem;
+    text-align: center;
+}
+.nav ul .current::before{
+    position: absolute;
+    top: 0.34rem;
+    left: 0;
+    content: '';
+    width: 0.12rem;
+    height: 0.44rem;
+    background: url('../img/class/classify_pickers@2x.png') center center no-repeat;
+    background-size: cover;
+}
+.nav ul .current{
+    position: relative;
+    background-color: white;
+}
+.nav ul .current span{
+    color: #C30D23;
+}
+.nav ul li span{
+    font-size: 0.28rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 1.08rem;
+    color: #333333;
+}
+.center{
+    display: flex; 
+    align-items: stretch;
+}
+.content{
+    height: 100rem;
+    width: 10rem;
+}

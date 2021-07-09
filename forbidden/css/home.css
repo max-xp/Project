@@ -1,0 +1,557 @@
+.header{
+    width: 7.5rem;
+    height: 5.62rem;
+    background: #C30D23;
+}
+.header .grabble{
+    padding-top: 1rem;
+    display: flex;
+}
+.header .grabble .logo{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.32rem;
+}
+.header .grabble .notice{
+    width: 0.64rem;
+    height: 0.64rem;
+    margin-left: 0.16rem;
+}
+.header .grabble .grabble-box{
+    margin-left: 0.14rem;
+    width: 5.2rem;
+    height: 0.64rem;
+    border-radius: 0.12rem;
+    background: rgb(255, 255, 255,0.16);
+    display: flex;
+}
+.header .grabble .grabble-box .default{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 1.66rem;
+    margin-top: 0.12rem;
+}
+.header .grabble .grabble-box .grabble-input{
+    font-size: 0.28rem;
+    font-family: 长城大标宋体;
+    line-height: 0.38rem;
+    color: #FFFCFC;
+    background-color:transparent;
+    border: none;
+    margin-left: 0.24rem;
+}
+.header .bg{
+    width: 7.5rem;
+}
+.presentation{
+    margin: 0.7rem auto 0;
+    width: 6.08rem;
+}
+.presentation ul{
+    display: flex;
+    justify-content: space-between;
+}
+.presentation ul li img{
+    width: 0.88rem;
+    height: 0.88rem;
+}
+.presentation ul li span{
+    display: block;
+    font-size: 0.24rem;
+    font-family: 长城大标宋体;
+    line-height: 0.38rem;
+    color: #333333;
+}
+.canteen{
+    margin-top: 0.38rem;
+    position: relative;
+    height: 7.55rem;
+}
+.canteen .canteen-header{
+    width: 7.5rem;
+    height: 2.46rem;
+    background: url('../img/home/new people_image_bg@2x.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.canteen .canteen-header .shop-text{
+    position: absolute;
+    font-size: 0.28rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    line-height: 0.38rem;
+    color: #FFFFFF;
+    top: 1.9rem;
+    left: 0.56rem;
+}
+.canteen .canteen-header .sum-text{
+    position: absolute;
+    top: 1.96rem;
+    left: 3.12rem;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #FFFFFF;
+}
+.canteen .canteen-header .btn-go{
+    width: 0.96rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 1.9rem;
+    left: 5.82rem;
+}
+.canteen .center{
+    position: absolute;
+    top: 2.22rem;
+    width: 7.5rem;;
+    height: 5.34rem;
+    background: #C30D23;
+    z-index: -1;
+}
+.canteen .center .center-box{
+    width: 6.94rem;
+    height: 4.2rem;
+    margin: 0.24rem auto 0;
+    background-color: white;
+    border: 0.04rem solid #FFEBB9;
+    border-radius: 8px;
+    display: flex;
+}
+.canteen .center .center-box .product .product-header{
+    margin: 0.16rem 0.08rem 0 0.32rem;
+}
+.canteen .center .center-box .product .product-header .header-Ltext{
+    font-size: 0.28rem;
+    font-family: 长城大标宋体;
+    line-height: 0.38rem;
+    color: #333333;
+}
+.canteen .center .center-box .product .product-header .header-Rtext{
+    font-size: 0.16rem;
+    font-family: PingFang SC;
+    line-height: 0.22rem;
+    color: #FFFCFC;
+    width: 0.76rem;
+    height: 0.24rem;
+    background: linear-gradient(90deg, #FF6815 0%, #FF4C3C 100%);
+    border: 4px solid #FFEBB9;
+    border-radius: 8px;
+}
+.canteen .center .center-box .product .product-center{
+    margin: 0.22rem 0 0 0.32rem;
+}
+.canteen .center .center-box .product .product-center ul{
+    display: flex;
+}
+
+.canteen .center .center-box .product .product-center ul li{
+    text-align: center;
+    width: 1.44rem;
+    height: 1.64rem;
+    background: #FFF9FA;
+    margin-right: 0.16rem;
+}
+.canteen .center .center-box .product .product-center ul li img{
+    width: 1.08rem;
+    height: 1.08rem;
+}
+.canteen .center .center-box .product .product-center ul li span{
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height:0.28rem;
+    color: #C30D23;
+}
+.canteen .center .center-box .product .product-foot{
+    width: 3.04rem;
+    height: 1.48rem;
+    background: #F3FAFF;
+    margin-top: 0.16rem;
+    margin-left: 0.32rem;
+    display: flex;
+}
+.canteen .center .center-box .product .product-foot .foot-Img{
+    margin: 0.24rem 0 0.16rem;
+}
+.canteen .center .center-box .product .product-foot .foot-Img img{
+    width: 1.36rem;
+    height: 1rem;
+}
+.canteen .center .center-box .product .product-foot .foot-Text{
+    margin: 0.22rem 0 0.16rem;
+}
+.canteen .center .center-box .product .product-foot .foot-Text .text-good{
+    font-size: 0.2rem;
+    font-family: 长城大标宋体;
+    line-height: 0.28rem;
+    color: #333333;
+}
+.canteen .center .center-box .product .product-foot .text-more{
+    font-size: 0.16rem;
+    font-family: PingFang SC;
+    line-height: 0.24rem;
+    color: #999999;
+    margin-top: 0.06rem;
+    display: block;
+}
+.canteen .center .center-box .product .product-foot .text-number{
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #C30D23;    
+    margin-top: 0.18rem;
+    display: block;
+}
+.canteen .center .center-box .partition{
+    width: 0px;
+    height: 3.96rem;
+    border: 0.02rem solid #707070;
+    opacity: 0.06;
+    margin-top: 0.08rem;
+}
+.canteen .center .center-box .selection .selection-header{
+    margin: 0.16rem 0 0 0.16rem;
+}
+.canteen .center .center-box .selection .selection-header .court-text{
+    font-size: 0.28rem;
+    font-family: 长城大标宋体;
+    line-height: 0.38rem;
+    color: #333333;
+}
+.canteen .center .center-box .selection .selection-header .selection-text{
+    display: inline-block;
+    width: 0.56rem;
+    height: 0.24rem;
+    background: linear-gradient(90deg, #FFE2A5 0%, #F5A600 100%);
+    font-size: 0.16rem;
+    font-family: PingFang SC;
+    line-height: 0.22rem;
+    color: #FFFCFC;
+    margin-left: 0.08rem;
+}
+.canteen .center .center-box .selection .selection-img{
+    margin: 0.05rem 0.14rem 0;
+}
+.canteen .center .center-box .selection .selection-img ul li{
+    float: left;
+    margin: 0.14rem 0.23rem 0;
+    text-align: center;
+    width: 1.08rem;
+}
+.canteen .center .center-box .selection .selection-img ul li img{
+    width: 1.08rem;
+    height: 1.08rem;
+}
+.canteen .center .center-box .selection .selection-img ul li span{
+    display: block;
+    font-size: 0.18rem;
+    font-family: PingFang SC;
+    line-height: 0.2rem;
+    color: #C30D23;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.canteen .center .center-foot{
+    width: 6.94rem;
+    height: 0.4rem;
+    background: #FFFFFF;
+    border: 0.04rem solid #FFEBB9;
+    opacity: 1;
+    border-radius: 0.04rem;
+    margin: 0.08rem auto 0;
+    display: flex;
+}
+.canteen .center .center-foot .foot-Ltext{
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    line-height: 0.38rem;
+    color: #C30D23;
+    margin-left:0.24rem;
+}
+.canteen .center .center-foot .foot-division{
+    width: 0px;
+    height: 0.24rem;
+    border: 0.02rem solid #333333;
+    margin-left: 0.08rem;
+    margin-top: 0.06rem;
+}
+.canteen .center .center-foot .foot-Rtext{
+    font-family: PingFang SC;
+    color: #333333;
+    font-size: 0.2rem;
+    line-height: 0.38rem;
+}
+.canteen .center .center-foot img{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-top: 0.08rem;
+    margin-left: 0.4rem;
+}
+.choiceness{
+    margin-top: 0.64rem;
+}
+.choiceness .choiceness-header{
+    position: relative;
+}
+.choiceness .choiceness-header img{
+    width: 7.5rem;
+}
+.choiceness .choiceness-header span{
+    display: inline-block;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: url('../img/home/title_image_word bg@2x(1).png') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    font-size: 0.32rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 0.64rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.choiceness .choiceness-header .text-one{
+    top: -0.24rem;
+    left: 2.7rem;
+}
+.choiceness .choiceness-header .text-two{
+    top: -0.24rem;
+    left: 3.2rem;
+}
+.choiceness .choiceness-header .text-three{
+    top: -0.24rem;
+    left: 3.7rem;
+}
+.choiceness .choiceness-header .text-four{
+    top: -0.24rem;
+    left: 4.24rem;
+}
+.choiceness .nav{
+    width: 7rem;
+    height: 2.32rem;
+    margin: 0.54rem auto 0;
+    background: url('../img/home/selected for you banner_image_commodity@2x.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.choiceness .nav .mask{
+    position: absolute;
+    width: 7.2rem;
+    height: 0.64rem;
+    top: 1.68rem;
+    left: -0.1rem;
+    opacity: 0.7;
+}
+.choiceness .nav .nav-text{
+    position: absolute;
+    top: 1.84rem;
+    left: 0.14rem;
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFCFC;
+    display: inline-block;
+}
+.choiceness .nav .hot-icon{
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    top: 1.8rem;
+    left: 4.66rem;
+}
+.choiceness .nav .more-icon{
+    position: absolute;
+    width: 0.24rem;
+    height: 0.24rem;
+    top: 1.88rem;
+    left: 6.56rem;
+}
+.choiceness .browse{
+    margin: 0.24rem 0 0.4rem 0.24rem;
+    width: 7.26rem;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    overflow-x: scroll;
+}
+.choiceness .browse ul{
+    width: 7.9rem;
+}
+.choiceness .browse ul li{
+    width: 1.8rem;
+    height: 2.8rem;
+    float: left;
+    margin-right: 0.16rem;
+    text-align: center;
+}
+.choiceness .browse ul li img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.choiceness .browse ul li .browse-tit{
+    margin-top: 0.12rem;
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #333333;
+}
+.choiceness .browse ul li .browse-number{
+    margin-top: 0.12rem;
+    position: relative;
+}
+.choiceness .browse ul li .browse-number .number{
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    line-height: 0.32rem;
+    color: #C30D23;
+}
+.choiceness .browse ul li .browse-number .remark-one{
+    font-size: 0.16rem;
+    font-family: PingFang SC;
+    line-height: 0.22rem;
+    color: #C30D23;
+    width: 0.52rem;
+    height: 0.24rem;
+    border: 1px solid #C30D23;
+    display: inline-block;
+}
+.choiceness .browse ul li .browse-number .remark-tow{
+    font-size: 0.16rem;
+    font-family: PingFang SC;
+    line-height: 0.22rem;
+    color: #CCCCCC;
+}
+.choiceness .browse ul li .browse-number .striping{
+    display: inline-block;
+    position: absolute;
+    top: 0.14rem;
+    left: 1.2rem;
+    width: 28px;
+    height: 0px;
+    border: 1px solid #CCCCCC;
+}
+
+
+.management{
+    margin-top: 0.62rem;
+    margin-bottom: 2rem;
+}
+.management .management-header{
+    position: relative;
+}
+.management .management-header img{
+    width: 7.5rem;
+}
+.management .management-header span{
+    display: inline-block;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: url('../img/home/title_image_word bg@2x(1).png') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    font-size: 0.32rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 0.64rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.management .management-header .text-one{
+    top: -0.24rem;
+    left: 2.94rem;
+}
+.management .management-header .text-two{
+    top: -0.24rem;
+    left: 3.44rem;
+}
+.management .management-header .text-three{
+    top: -0.24rem;
+    left: 3.94rem;
+}
+.management .management-center{
+    margin: 0.56rem 0.13rem 0;
+}
+.management .management-center ul li{
+    width: 3.4rem;
+    height: 4.68rem;
+    background: #FFFFFF;
+    float: left;
+    margin: 0 0.11rem;
+}
+.management .management-center ul li .text-img{
+    width: 3.4rem;
+    height: 3rem;
+}
+.management .management-center .management-box{
+    margin: 0.16rem 0 0 0.16rem;
+}
+.management .management-center .management-box .text-tit{
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    line-height: 0.32rem;
+    color: #333333;
+}
+.management .management-center .management-box .remark{
+    width: 0.96rem;
+    height: 0.32rem;
+    margin-top: 0.12rem;
+    background: rgb(195, 13, 35, 0.04);
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #C30D23;
+}
+.management .management-center .management-box .price{
+    margin-top: 0.16rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.management .management-center .management-box .price .number{
+    font-size: 0.32rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    line-height: 0.42rem;
+    color: #C30D23;
+}
+.management .management-center .management-box .price .sales{
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.5rem;
+    color: #999999;
+    margin-right: 0.12rem;
+}
+.management .management-center .management-box .line{
+    width: 3.4rem;
+    height: 0.02rem;
+    margin-top: 0.18rem;
+}
+.management .management-center .management-box .rank{
+    display: flex;
+    margin: 0.08rem 0 0 0.12rem;
+}
+.management .management-center .management-box .rank .list{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.management .management-center .management-box .rank .rank-text{
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    color: #333333;
+    margin-left: 0.12rem;
+}
+.management .management-center .management-box .rank .more{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-left: 0.3rem;
+}
+.division{
+    width: 7.5rem;
+    height: 0.24rem;
+    background: #F5F5F5;
+}

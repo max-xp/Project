@@ -1,0 +1,129 @@
+.header{
+    width: 7.5rem;
+    height: 1.76rem;
+    background: #C30D23;
+    display: flex;
+}
+.header img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 1.16rem 0 0 0.48rem;
+}
+.header span{
+    font-size: 0.4rem;
+    font-family: 长城大标宋体;
+    line-height: 0.54rem;
+    color: #FAFAFA;
+    margin-left: 2.1rem;
+    margin-top: 1.04rem;
+}
+.nav img{
+    width: 7.5rem;
+    height: 4.5rem;
+}
+.product-list{
+    margin-top: 0.36rem;
+    margin-left: 0.24rem;
+    margin-bottom: 2rem;
+}
+.product-list ul li{
+    display: flex;
+    margin-bottom: 0.48rem;
+}
+.product-list ul li .product-img img{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.product-list ul li .product{
+    margin-left: 0.24rem;
+}
+.product-list ul li .product .product-tit{
+    display: flex;
+}
+.product-list ul li .product .product-tit .tit-box{
+    width: 0.56rem;
+    height: 0.32rem;
+    background: #C30D23;
+    border-radius: 0.04rem;
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #FFFCFC;
+    text-align: center;
+    margin-right: 0.12rem;
+}
+.product-list ul li .product .product-tit .tit-name{
+    font-size: 0.32rem;
+    font-family: Source Han Serif CN;
+    font-weight: bold;
+    line-height: 0.21rem;
+    color: #333333;
+}
+.product-list ul li .product .product-referral{
+    margin-top: 0.1rem;
+}
+.product-list ul li .product .product-referral span{
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    line-height: 0.3rem;
+    color: #666666;
+}
+.product-list ul li .product .product-remark{
+    margin-top: 0.16rem;
+    display: flex;
+}
+.product-list ul li .product .product-remark span{
+    width: 0.96rem;
+    height: 0.32rem;
+    background: #F2F2F2;
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #B3B3B3;
+    margin-right: 0.16rem;
+    line-height: 0.32rem;
+}
+.product-list ul li .product .product-price{
+    margin-top: 0.24rem;
+    display: flex;
+}
+.product-list ul li .product .product-price .price-number{
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    line-height: 0.32rem;
+    color: #C30D23;
+    margin-right: 0.2rem;
+}
+.product-list ul li .product .product-price .price-boxOne{
+    display: block;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #C30D23;
+    width: 1.rem;
+    height: 0.28rem;
+    text-align: center;
+    border: 1px solid #C30D23;
+}
+.product-list ul li .product .product-price .price-boxTow{
+    width: 1.7rem;
+    height: 0.28rem;
+    border: 1px solid #2448AC;
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #2448AC;
+}
+.product-list ul li .product .product-evaluate{
+    margin-top: 0.16rem;
+}
+.product-list ul li .product .product-evaluate span{
+    font-size: 0.2rem;
+    font-family: PingFang SC;
+    line-height: 0.28rem;
+    color: #999999;
+    margin-right: 0.2rem;
+}

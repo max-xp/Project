@@ -1,0 +1,39 @@
+.bgd{
+    background: url('../img/splash/default@2x.png') center center no-repeat;
+    background-size: cover;
+    width: 7.5rem;
+    height: 14.22rem;
+    position: relative;
+}
+.bgd .pass-box{
+    position: absolute;
+    top: 1.12rem;
+    right: 0.48rem;
+    width: 1.02rem;
+    height: 0.26rem;;
+    border-radius: 0.24rem;
+    background:rgb(51, 51, 51);
+    opacity: 0.5;
+    text-align: center;
+}
+.bgd .pass-box span{
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    line-height: 0.26rem;
+    color: #FFFFFF;
+}
+.foot{
+    margin: 0.24rem auto 0;
+    text-align: center;
+}
+.foot img{
+    width: 1rem;
+    height: 1rem;
+}
+.foot span{
+    display: block;
+    font-size: 0.24rem;
+    font-family: PingFang SC;
+    line-height: 0.32rem;
+    color: #333333;
+}
